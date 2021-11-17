@@ -17,7 +17,6 @@ public class numberOfWordsInParagraph {
                 l.add(e);
             }
         }
-//        System.out.println(l);
         int count = 0;
         List<String> l1 = new ArrayList<>();
         l1.add(l.get(0));
@@ -29,7 +28,7 @@ public class numberOfWordsInParagraph {
                 l1.add(l.get(i));
             }
         }
-//        System.out.println(l1);
         System.out.println("Number of repeated words in given paragraph is : " + count);
+        br.close();
     }
 }
