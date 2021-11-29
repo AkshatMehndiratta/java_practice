@@ -1,6 +1,7 @@
 package map;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class hashMap {
     public static void main(String[] args) {
@@ -16,5 +17,8 @@ public class hashMap {
 //        here we are preventing overriding
         hm.putIfAbsent("sam",23);
         System.out.println(hm);
+        for(Map.Entry<String,Integer> e: hm.entrySet()){
+            System.out.println(e);
+        }
     }
 }
